@@ -1,0 +1,464 @@
+<main class="body">
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> 
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../../assets/images/logo2.png">
+        </a>
+        <button mat-raised-button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class=" nav-link"  href="/landingpg">Home</a>
+
+                </li>
+
+                <li class="nav-item">
+                    <a class=" nav-link"  href="/about_us">About us</a>
+
+                    
+                </li>
+
+                <li class="nav-item">
+                    <a class=" nav-link"  href="/services">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/blogs">Blog</a> 
+                     </li>
+                <li class="nav-item">
+                    <a class=" nav-link" href="/careers">Careers</a>
+                </li>
+                <button mat-raised-button class="btn btn-outline-secondary btn-md" routerLink="/contact_us">Contact us</button>
+                </ul>
+        </div>
+    </div>
+</nav>
+
+
+<main class="page-work-area">
+<h1 class="about">About Us</h1>
+<p class="services_card2">
+    A bunch of professionals from all aspects of technology and services equipped to provide any kind of service to any extent affordable to any aspiring service seeker.</p>
+
+<p class="services_card2">Our operations are carried out from the North American subcontinent where the technology is at its prime with offices in Asia, Europe and Australia.</p>
+<p class="services_card2">
+We work in tandem with various client needs and the modular design of the finished services make it easy to integrate them across all platforms as a perfect fit.
+    </p>
+   
+</main>
+
+
+
+<!-- 3 section cards -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card " style="width: 20rem;">
+                <div class="inner">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-bullseye"></i>
+                    </div>
+                    <!-- <img src="../../assets/images/blog2.jpg" class="card-img-top" alt="..."> -->
+                </div>
+                
+                <div class="card-body text-center">
+                  <h5 class="card-title">Our Mission</h5>
+                  <p class="card-text">To deliver high-quality software development services with integrity, honesty, and transparency with reasonable margins, while maintaining profitability.</p>
+                  <a href="#" class="btn btn-warning">Read More</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card " style="width: 20rem;">
+                <div class="inner">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <!-- <img src="../../assets/images/bg2.jpg" class="card-img-top" alt="..."> -->
+                </div>
+               
+                <div class="card-body text-center">
+                  <h5 class="card-title">Our Core Values</h5>
+                  <p class="card-text">At Maroons, we embrace a well-established set of cultural and professional values which represent our highest aspirations for how we engage as colleagues, fellows, alumni, partners and board members.</p>
+                  <a href="#" class="btn btn-warning">Read More</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card " style="width: 20rem;">
+                <div class="inner">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <i class="fa fa-trophy"></i>
+                        </div>
+    
+                    <!-- <img src="../../assets/images/bg3.jpg" class="card-img-top" alt="..."> -->
+                </div>
+                
+                <div class="card-body text-center">
+                  <h5 class="card-title">Our Vision</h5>
+                  <p class="card-text">To be the most recognized and trusted software development company based out of India.</p>
+                  <a href="#" class="btn btn-warning">Read More</a>
+                </div>
+              </div>
+        </div>
+
+    </div>
+</div> 
+
+<script>
+    $(document).ready(function(){
+$('.col-md-4').hover(
+    // triggers when mouse hovers
+    function(){
+$(this).animate({
+    marginTop:"-=1%",
+}, 200);
+    },
+
+    // trigger when mouse out
+    function(){
+$(this).animate({
+    marginTop:"0%",
+}, 200);
+    },
+
+);
+    });
+</script>
+<br><br><br><br><br>
+
+
+<!-- two coloumn section -->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-lg-6" style="padding: 30px;">
+            <mat-label style="font-size: 30px;">
+               Why Maroons
+            </mat-label>
+            <br>
+            <p>
+                We know that to be at the top in the industry not only the technology that matters, but also
+                the way a project is handled. The quality deliverables can always bring impeccable results
+                what ever may be the project..</p>
+    
+    <p>Our operations are carried out from the North American subcontinent where the technology is at its prime with offices in Asia, Europe and Australia.</p>
+    <p>
+    We work in tandem with various client needs and the modular design of the finished services make it easy to integrate them across all platforms as a perfect fit.
+            </p>
+            <br>
+            <a href="#" class="btn btn-warning btn-lg" routerLink="/projects">Towards our projects</a>
+        </div>
+    <div class="col-lg-6">
+    <img src="../../assets/images/office2.jpg" class="img-fluid">    
+    </div>
+    </div>
+    <hr class="my-4">
+    </div>
+    
+    <br><br>
+
+    <!-- Welcome Section to join the dream team -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4" style="font-size: 45px;">Our Team
+                </h1>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">Our greatest strength is our team spirit & dedication towards the common goal of client satisfaction.</p>
+                    <p class="lead">
+                        Our team members respect, trust & care for each other.
+                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- team members -->
+<section class="team-area">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="team-single">
+                <div class="content-area">
+                    <div class="side-one">
+                        <div class="card-team">
+                            <div class="card-body text-center">
+<div class="img-area">
+    <img src="../../assets/images/testimonial2.jpg" alt="">
+</div>
+    <h4>
+        Megan Fox
+    </h4>
+<p class="designation"> Founder & CEO</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+<div class="side-two">
+    <div class="card">
+        <div class="card-body text-center mt-4">
+            <h4>Megan Fox</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <ul class="list-inline">
+
+                <li class="list-inline-item">
+                <a href="#" class="social-icon" target="_blank">
+                <i class="fab fa-twitter"></i>
+                </a>
+                
+                </li>
+                
+                <li class="list-inline-item">
+                <a href="#" class="social-icon" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+                </a>
+                
+                </li>
+                
+                <li class="list-inline-item">
+                <a href="#" class="social-icon" target="_blank">
+                <i class="fab fa-instagram"></i>
+                </a>
+                
+                </li>
+                
+                <li class="list-inline-item">
+                <a href="#" class="social-icon" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+                </a>
+                
+                </li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+                </div>
+                </div>
+            </div>
+<!-- 2nd team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="team-single">
+                <div class="content-area">
+                    <div class="side-one">
+                        <div class="card-team">
+                            <div class="card-body text-center">
+                                <div class="img-area">
+                                    <img src="../../assets/images/testimonial3.jpg" alt="">
+                                </div>
+                                    <h4>
+                                        John David
+                                    </h4>
+                                <p class="designation"> VP Operations</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+<div class="side-two">
+    <div class="card">
+        <div class="card-body text-center mt-4">
+            <h4> John David</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <ul class="list-inline">
+
+                <li class="list-inline-item">
+                <a href="#" class="social-icon" target="_blank">
+                <i class="fab fa-twitter"></i>
+                </a>
+                
+                </li>
+                
+                <li class="list-inline-item">
+                <a href="#" class="social-icon" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+                </a>
+                
+                </li>
+                
+                <li class="list-inline-item">
+                <a href="#" class="social-icon" target="_blank">
+                <i class="fab fa-instagram"></i>
+                </a>
+                
+                </li>
+                
+                <li class="list-inline-item">
+                <a href="#" class="social-icon" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+                </a>
+                
+                </li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+                </div>
+                </div>
+            </div>
+<!-- 3rd team member -->
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="team-single">
+    <div class="content-area">
+        <div class="side-one">
+            <div class="card-team">
+                <div class="card-body text-center">
+                    <div class="img-area">
+                        <img src="../../assets/images/testimonial.jpg" alt="">
+                    </div>
+                        <h4>
+                            Nisa Wood
+                        </h4>
+                    <p class="designation"> VP Human Resource</p>
+                </div>
+
+            </div>
+        </div>
+
+
+<div class="side-two">
+<div class="card">
+<div class="card-body text-center mt-4">
+<h4>  Nisa Wood </h4>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<ul class="list-inline">
+
+<li class="list-inline-item">
+<a href="#" class="social-icon" target="_blank">
+<i class="fab fa-twitter"></i>
+</a>
+
+</li>
+
+<li class="list-inline-item">
+<a href="#" class="social-icon" target="_blank">
+<i class="fab fa-facebook-f"></i>
+</a>
+
+</li>
+
+<li class="list-inline-item">
+<a href="#" class="social-icon" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+
+</li>
+
+<li class="list-inline-item">
+<a href="#" class="social-icon" target="_blank">
+<i class="fab fa-linkedin-in"></i>
+</a>
+
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+    </div>
+    </div>
+</div>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Resonssive footer -->
+
+<footer>
+    <div class="main-content">
+        <div class="left box">
+           <h2>About Us</h2>
+           <div class="content">
+               <p>A bunch of professionals from all aspects of technology and services equipped to provide any kind of service to any extent affordable to any aspiring service seeker.</p>
+               <div class="social">
+                   <a href="#"><span class="fab fa-facebook-f" style="height: 40px; width: 40px; background: #1a1a1a; line-height: 40px;
+                    text-align: center; font-size: 18px; border-radius: 5px;  transition: 0.3s;"></span></a>
+
+                   <a href="#"><span class="fab fa-twitter" style="height: 40px; width: 40px; background: #1a1a1a; line-height: 40px;
+                    text-align: center; font-size: 18px; border-radius: 5px;  transition: 0.3s;"></span></a>
+
+                   <a href="#"><span class="fab fa-instagram" style="height: 40px; width: 40px; background: #1a1a1a; line-height: 40px;
+                    text-align: center; font-size: 18px; border-radius: 5px;  transition: 0.3s;"></span></a>
+
+                   <a href="#"><span class="fab fa-youtube" style="height: 40px; width: 40px; background: #1a1a1a; line-height: 40px;
+                    text-align: center; font-size: 18px; border-radius: 5px;  transition: 0.3s;"></span></a>
+                   
+               </div>
+           </div> 
+        </div>
+<div class="center box">
+    <h2>Address</h2>
+    <div class="content">
+        <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">
+                Office No S-817, 8th Floor, South Block ,  Manipal Center Bangalore-42 
+            </span>
+        </div>
+
+        <div class="phone">
+            <span class="fa fa-phone"></span>
+            <span class="text">
+                +1 639-999-5444
+            </span>
+        </div>
+
+        <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">
+                info@maroonsb2b.com
+            </span>
+        </div>  
+
+    </div>
+</div>
+
+<div class="right box">
+    <h2>Contact Us</h2>
+    <div class="content">
+        <form action="#">
+        <div class="email">
+            <div class="text">
+                Email *
+            </div>
+                <input type="email" required>
+            
+            <div class="msg">
+                <div class="text">
+                    Message *
+                </div>
+                <textarea  cols="25" rows="2" required></textarea>
+            </div>
+            <div class="btn" >
+                <button  class="btn btn-success btn-lg" type="submit">
+                    Submit
+                </button>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+
+    </div>
+</footer>
+
+
+</main>

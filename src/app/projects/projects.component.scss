@@ -1,0 +1,51 @@
+.body {
+    height: 100%; width: 100%; font-family: 'poppins', sans-serif; color: #222;
+  }
+  .navbar { padding: 0.8rem; }
+  .navbar-nav li { padding-right: 40px; font-weight: bold; }
+  .nav-link { font-size: 1.1em !important; }
+
+//   projects
+
+.team-area { padding: 10px 0; }
+.card-team { border: none; background: rgb(247, 245, 245); }
+// .img-area { width: 200px; height:200px; overflow: hidden; display: inline-block;}
+.card:hover {background-color: rgb(202, 198, 198);}
+.img-area { background-image: cover; background-repeat: no-repeat;}
+.team-single:hover .side-two {  transform: rotateY(0deg); border-radius: 1px;}
+.team-single:hover .side-one {  transform: rotateY(180deg);}
+h3 { color: maroon; font-family: sans-serif; letter-spacing: 5px;font-size: 25px;}
+
+// get in touch
+.get_in_touch {
+    max-width: 800px; margin: 10px auto; 
+    position: relative; box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1); 
+    padding: 30px; 
+  }
+.title { font-size: 40px; text-align: center; font-weight: 500;}
+.contact-form .form-field{
+    position: relative; margin: 32px 0;
+    }
+    .contact-form .input-text{ display: block; width: 100%; height: 36px; border-width:  0 0 2px 0; 
+      border-color: maroon; font-size: 18px; line-height: 26px; font-weight: 400; 
+      }
+    
+    .contact-form .input-text:focus{ outline: none; }
+    .contact-form  .label { position: absolute; left: 20px; bottom: 11px; font-size: 18px; line-height: 26px;
+       font-weight: 400; color: black; cursor: text; transition: transform 0.2s ease-in-out; font-family: sans-serif;
+    }
+
+// footer
+
+footer{ position: relative; bottom: 0px; width: 100%; background: #111111; height: 45%;color: #d9d9d9; }
+.main-content{ display: flex; }
+.main-content .box{ flex-basis: 50%; padding: 10px 20px; }
+.box h2{ font-size: 1.125rem; font-weight: 600; text-transform: uppercase;  }
+.box .content{ margin: 20px 0 0 0;  }
+.left .content p{ text-align: justify; }
+.left .content .social{ margin: 20px 0 0 0 ;  }
+.left .content .social a{ padding: 0 2px;   }
+.left .content .social a span{ 
+    height: 40px; width: 40px; background: #1a1a1a; line-height: 40px;
+     text-align: center; font-size: 18px; border-radius: 5px;  transition: 0.3s; }
+.left .content .social a span:hover{ background: #f12020;}

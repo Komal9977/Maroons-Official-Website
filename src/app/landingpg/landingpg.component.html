@@ -1,0 +1,663 @@
+<main class="body">
+      
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" id="navbar-example"> 
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../../assets/images/logo2.png">
+        </a>
+        <button mat-raised-button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class=" nav-link"  href="/landingpg">Home</a>
+
+                  
+                </li>
+
+                <li class="nav-item">
+                    <a class=" nav-link"  href="/about_us">About us</a>
+
+                </li>
+
+                <li class="nav-item">
+                    <a class=" nav-link"  href="/services">Services</a>
+
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/blogs">Blog</a> 
+                     </li>
+                <li class="nav-item">
+                    <a class=" nav-link" href="/careers">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#canada" (click)=canadaservices()>Canada</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#india" (click)=indiaservices()>India</a>
+                    <!-- <script>
+                        var flag = document.getElementById('canada').style.display !== 'none';
+                    </script> -->
+
+                </li>
+
+                
+                <button mat-raised-button class="btn btn-outline-secondary btn-md" routerLink="/contact_us">Contact us</button>
+                </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- sticky social media icons -->
+
+<div class="sticky-social">
+    <ul>
+        <li><a href="">
+            <i class="fab fa-facebook">
+            </i> <span>Facebook</span>
+        </a></li>
+        <li><a href="">
+            <i class="fab fa-twitter"></i>
+            <span>Twitter</span>
+        </a></li>
+        <li><a href="">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+        </a></li>
+        <li><a href="">
+            <i class="fab fa-linkedin"></i>
+            <span>Linkedin</span>
+        </a></li>
+        <li><a href="">
+            <i class="fab fa-dribbble"></i>
+            <span>dribbble</span>
+        </a></li>
+    </ul>
+</div>
+
+<!-- carousel slider images 
+
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+        </ul> 
+       
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img  class="d-block w-100" src="../../assets/images/bg.jpg">  
+                <div class="carousel-caption">  
+                    <h1 class="display-2">CORE DEVELOPMENT</h1>
+                        <h3>Complete Website Layout</h3>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100"  src="../../assets/images/f1.jpg">    
+            </div>
+
+            <div class="carousel-item">
+                    <img class="d-block w-100"  src="../../assets/images/bg2.jpg">    
+            </div>
+       
+  
+    <a
+      class="carousel-control-prev"
+      href="#carouselBasicExample"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#carouselBasicExample"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  
+</div>  
+</div>
+<br> -->
+<!-- Background image -->
+<div class="p-5 text-center bg-image" id="bgimg">
+<div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 300px; 
+margin-top: 60px; width: 510px; margin-left: 750px;">
+  <div class="d-flex justify-content-center align-items-center h-100">
+    <div class="text-white">
+      <h1 class="mb-4" style="font-size: 50px;  ">We Stand for Quality</h1>
+      <h4 class="mb-3" style="font-size: 30px; margin-bottom: 25px;">Expertise & Industry Knowledge</h4>
+      <br><br>
+      <a class="btn btn-outline-light btn-lg"  role="button" routerLink="/contact_us"
+        >Contact Us</a
+      >
+    </div>
+  </div>
+</div>
+</div>
+<main>
+    <div class="container-fluid px-0">
+        <section class="divider py-5">
+            <div class="row justify-content-center align-items-center pr-5">
+                <div class="col-md-4 text-right">
+                    <h1 style="font-weight: 400; ">Our Philiosophy</h1>
+
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        To value extreme professionalism in providing valuable additions to our clients’ 
+            services aiming at future requirements and technology without further ado and delay.
+           
+                    </p>
+                </div>
+    
+            </div>
+        </section>
+    </div>
+</main>
+
+<br><br><br>
+
+<!-- Welcome Section core values-->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4" style="font-size: 40px;">Our Core Values
+            </h1>
+            <hr>
+            <div class="col-12">
+                <p class="lead">
+                     
+                    We provides the best services to be deliver the results that you expect from an outsourcing organization.</p>
+                    <p class="lead"> Truthfulness, transparency and collaborative approach is a start!</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 3 section cards -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card " style="width: 20rem;">
+                <div class="inner">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-bullseye"></i>
+                    </div>
+                    <!-- <img src="../../assets/images/blog2.jpg" class="card-img-top" alt="..."> -->
+                </div>
+                
+                <div class="card-body text-center">
+                  <h5 class="card-title">Our Mission</h5>
+                  <p class="card-text">To deliver high-quality software development services with integrity, honesty, and transparency with reasonable margins, while maintaining profitability.</p>
+                  <a href="#" class="btn btn-warning">Read More</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card " style="width: 20rem;">
+                <div class="inner">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <!-- <img src="../../assets/images/bg2.jpg" class="card-img-top" alt="..."> -->
+                </div>
+               
+                <div class="card-body text-center">
+                  <h5 class="card-title">Our Core Values</h5>
+                  <p class="card-text">At Maroons, we embrace a well-established set of cultural and professional values which represent our highest aspirations for how we engage as colleagues, fellows, alumni, partners and board members.</p>
+                  <a href="#" class="btn btn-warning">Read More</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card " style="width: 20rem;">
+                <div class="inner">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <i class="fa fa-trophy"></i>
+                        </div>
+    
+                    <!-- <img src="../../assets/images/bg3.jpg" class="card-img-top" alt="..."> -->
+                </div>
+                
+                <div class="card-body text-center">
+                  <h5 class="card-title">Our Vision</h5>
+                  <p class="card-text">To be the most recognized and trusted software development company based out of India.</p>
+                  <a href="#" class="btn btn-warning">Read More</a>
+                </div>
+              </div>
+        </div>
+
+    </div>
+</div> 
+
+<script>
+    $(document).ready(function(){
+$('.col-md-4').hover(
+    // triggers when mouse hovers
+    function(){
+$(this).animate({
+    marginTop:"-=1%",
+}, 200);
+    },
+
+    // trigger when mouse out
+    function(){
+$(this).animate({
+    marginTop:"0%",
+}, 200);
+    },
+
+);
+    });
+</script>
+<br><br><br>    <br><br>
+
+
+<!-- two coloumn section -->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-lg-6" style="padding: 30px;">
+            <mat-label style="font-size: 40px;">
+              About Maroons
+            </mat-label>
+            <br><br>
+            <p>
+                We know that to be at the top in the industry not only the technology that matters, but also
+                the way a project is handled. The quality deliverables can always bring impeccable results
+                what ever may be the project..</p>
+    
+    <p>Our operations are carried out from the North American subcontinent where the technology is at its prime with offices in Asia, Europe and Australia.</p>
+    <p>
+    We work in tandem with various client needs and the modular design of the finished services make it easy to integrate them across all platforms as a perfect fit.
+            </p>
+            <br>
+            <a href="#" class="btn btn-warning btn-lg" routerLink="/projects">Know More</a>
+        </div>
+    <div class="col-lg-6">
+    <img src="../../assets/images/office2.jpg" class="img-fluid">    
+    </div>
+    </div>
+    <hr class="my-4">
+    </div>
+    
+    <br><br>   
+
+
+    <!-- Maroons services -->
+
+    <div class="container-fluid padding" data-spy="scroll" data-target="#navbar-example" data-offset="0" id="india">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4" style="font-size: 40px;" >Maroons Services
+                </h1>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">
+                        You are the authority and the king of your domain, so we strive hard to project your vision in whatever we do for you. 
+                        Your expertise and our ideas are synchronised to bring the most satisfied output to maximise the effect.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="services-section" data-spy="scroll" data-target="#navbar-example" data-offset="0" id="canada">
+        <div class="inner-width">
+            
+            <div class="services-container">
+
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-cubes" style="height: 60px; width: 50px;"></i>
+                    </div>
+                    <div class="section-title py-3">
+                        Website <br><br>
+                        Development
+                    </div>
+                    <div class="service-desc">
+                        We provide a simple website application to the complex website building from scratch along with the management services.
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon" >
+                        <i class="fab fa-android" style="height: 60px; width: 50px;"></i>
+                    </div>
+                    <div class="section-title py-3">
+                       Mobile App <br><br>
+                       Development
+                    </div>
+                    <div class="service-desc">
+                        We provide android, ios & hybrid app development from scratch till the application host over playstore & iOs store.
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon" >
+                        <i class="fas fa-database" style="height: 60px; width: 50px;"></i>
+                    </div>
+                    <div class="section-title py-3">
+                   DevOps & <br><br> Cloud hosting 
+                    </div>
+                    <div class="service-desc">
+                        It’s a simple way of hosting for all. You too can share our hosting facilities to make your presence felt in this world.
+                    </div>
+                </div>
+
+
+                <div class="service-box" *ngIf="selected=='canada'">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush" style="height: 60px; width: 50px;"></i>
+                    </div>
+                    <div class="section-title py-3">
+                        Designing <br><br> &  Branding
+                    </div>
+                    <div class="service-desc">
+                        Maroons provides a individual or entire branding with nesting services belongs to the applications and development.
+                    </div>
+                </div>
+
+
+                <div class="service-box" *ngIf="selected=='canada'">
+                    <div class="service-icon">
+                        <i class="fas fa-object-ungroup" style="height: 60px; width: 50px;"></i>
+                    </div>
+                    <div class="section-title py-3">
+                       Pix & <br><br>
+                       Photogrphy
+
+                    </div>
+                    <div class="service-desc">
+                        Maroons provides a event photography, video shooting along with individual branding shoot as per the requirements.
+                    </div>
+                </div>
+
+                <div class="service-box" *ngIf="selected=='canada'">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs" style="height: 60px; width: 50px;"></i>
+                    </div>
+                    <div class="section-title py-3">
+                       
+                        Services <br><br> & Management 
+                    </div>
+                    <div class="service-desc">
+                        Maroons nothing but gives a products but also the respective management & services along with it.
+                    </div>
+                </div>
+
+         
+
+            </div>
+        </div>
+    </div>
+
+<br><br><br>
+<!-- client testimonials -->
+
+<div class="testimonial-section">
+    <div class=".testimonial-inner-width">
+        <h1>What Our Clients Says</h1>
+        <div class="testimonial-pics">
+            <img src="../../assets/images/testimonial.jpg" alt="test-1" class="active" >
+            <img src="../../assets/images/testimonial2.jpg" alt="test-2">
+            <img src="../../assets/images/testimonial3.jpg" alt="test-3">
+            <img src="../../assets/images/testimonial4.jpg" alt="test-4">
+        </div>
+        <div class="testimonial-contents">
+
+            <div class="testimonial  active" id="test-1">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <span class="description">
+                    Carla / HR MANAGER
+                </span>
+            </div>
+
+            <div class="testimonial " id="test-2">
+                <p>"Lorem ipsum dolor sit amet, consectetur pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <span class="description">
+                    Carla / HR
+                </span>
+            </div>
+
+            <div class="testimonial " id="test-3">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                <span class="description">
+                    Thomas / Developer
+                </span>
+            </div>
+
+            <div class="testimonial " id="test-4">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,  proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <span class="description">
+                    John / Developer
+                </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$('.testimonial-pics img').click(function(){
+    var listItems = $(".testimonial-pics img"); 
+
+    for (let i = 0; i < listItems.length; i++) { 
+                listItems[i].addClass.remove("active"); 
+            } 
+            this.addClass.add("active"); 
+
+    // $(".testimonial-pics img").removeClass("active");
+    // $(this).addClass("active");
+
+    $(".testimonial").removeClass("active");
+    $("#" + $(this).attr("alt")).addClass("active");
+});
+
+</script>
+
+<br><br>
+<!-- Welcome Section FAQ's-->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4" style="font-size: 40px;">Frequently Asked Question's
+            </h1>
+            <hr>
+            <div class="col-12">
+                <p class="lead">
+                    Know more about our processes & how we work with the help of following FAQ's
+                </p>
+            </div>
+            <br><br>
+            <div class="row padding">
+            <div class="col-md-10" style="margin-left: 120px; margin-right: 150px;" >
+            <mat-list >
+                <mat-accordion *ngFor="let faq of faqs">
+                  <mat-expansion-panel hideToggle>
+                    <mat-expansion-panel-header>
+                      <mat-panel-title class="faq_title"> {{ faq.que }} </mat-panel-title>
+                      <div class="spacer"></div>
+                      
+                      <svg width="1em" height="1em" 
+                      viewBox="0 0 16 16" 
+                      class="bi bi-chevron-down" 
+                      fill="currentColor" 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      matTooltip="expand" >
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                      </svg>
+                    </mat-expansion-panel-header>
+                    <p>{{ faq.ans }}</p>
+                  </mat-expansion-panel>
+                  <mat-expansion-panel
+                    (opened)="panelOpenState = true"
+                    (closed)="panelOpenState = false"
+                  >
+                  </mat-expansion-panel>
+                </mat-accordion>
+                
+              </mat-list>
+              </div>
+
+</div>
+        </div>
+    </div>
+</div>
+<br><br>
+
+<!-- Get in touch -->
+<div class="row padding">
+
+    <section class="get_in_touch">
+  
+        <h1 class="title">GET IN TOUCH</h1>
+        <div class="container">
+          <div class="contact-form row">
+            <div class="form-field col-lg-6">
+              
+              <input id="name" class="input-text" type="text" name="" >
+            <label for="name" class="label">Your Name</label>
+
+          </div>
+          <div class="form-field col-lg-6">
+            <input id="email" class="input-text" type="email" name="" >
+            <label for="email" class="label">Email</label>
+
+          </div>
+          <div class="form-field col-lg-6">
+            <input id="company" class="input-text" type="text" name="" >
+            <label for="company" class="label">Company Name</label>
+
+          </div>
+          <div class="form-field col-lg-6">
+            <input id="phone" class="input-text" type="text" name="" >
+            <label for="phone" class="label">Contact number</label>
+
+          </div>
+          <div class="form-field col-lg-6">
+            <input id="message" class="input-text" type="text" name="" >
+
+            <label for="message" class="label">Your Message</label>
+
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlFile1">Browse your file</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div> 
+
+           
+<div class="row text-center padding">
+<div class="col-md-12">
+<a href="#" class="btn btn-success btn-lg" style="vertical-align: middle; margin-left: 260px;" >Send Your Request</a>
+</div>
+</div>
+
+<br><br><br><br>
+        </div>
+        <small id="emailHelp" class="form-text text-muted" style="font-size: 16px; color: rgb(135, 137, 250);">Note: We respect your privacy. Your details will never be shared with anyone for marketing purpose.</small>
+        </div>
+
+      </section> 
+      <br><br>
+
+</div>
+
+
+<!-- Resonssive footer -->
+
+<footer>
+    <div class="main-content">
+        <div class="left box">
+           <h2>About Us</h2>
+           <div class="content">
+               <p>A bunch of professionals from all aspects of technology and services equipped to provide any kind of service to any extent affordable to any aspiring service seeker.</p>
+               <div class="social">
+                   <a href="#"><span class="fab fa-facebook-f" style="height: 40px; width: 40px; background: #1a1a1a; line-height: 40px;
+                    text-align: center; font-size: 18px; border-radius: 5px;  transition: 0.3s;"></span></a>
+
+                   <a href="#"><span class="fab fa-twitter" style="height: 40px; width: 40px; background: #1a1a1a; line-height: 40px;
+                    text-align: center; font-size: 18px; border-radius: 5px;  transition: 0.3s;"></span></a>
+
+                   <a href="#"><span class="fab fa-instagram" style="height: 40px; width: 40px; background: #1a1a1a; line-height: 40px;
+                    text-align: center; font-size: 18px; border-radius: 5px;  transition: 0.3s;"></span></a>
+
+                   <a href="#"><span class="fab fa-youtube" style="height: 40px; width: 40px; background: #1a1a1a; line-height: 40px;
+                    text-align: center; font-size: 18px; border-radius: 5px;  transition: 0.3s;"></span></a>
+                   
+               </div>
+           </div> 
+        </div>
+<div class="center box">
+    <h2>Address</h2>
+    <div class="content">
+        <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">
+                Office No S-817, 8th Floor, South Block, Manipal Center Bangalore-42 
+            </span>
+        </div>
+
+        <div class="phone">
+            <span class="fa fa-phone"></span>
+            <span class="text">
+                +1 639-999-5444
+            </span>
+        </div>
+
+        <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">
+                info@maroonsb2b.com
+            </span>
+        </div>  
+
+    </div>
+</div>
+
+<div class="right box">
+    <h2>Contact Us</h2>
+    <div class="content">
+        <form action="#">
+        <div class="email">
+            <div class="text">
+                Email *
+            </div>
+                <input type="email" required>
+            
+            <div class="msg">
+                <div class="text">
+                    Message *
+                </div>
+                <textarea  cols="25" rows="2" required></textarea>
+            </div>
+            <div class="btn" >
+                <button  class="btn btn-success btn-md" type="submit">
+                    Submit
+                </button>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+
+    </div>
+</footer>
+
+
+</main>
